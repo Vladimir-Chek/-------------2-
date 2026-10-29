@@ -7,13 +7,14 @@
 
 .obl {
   position: relative;
-  width: min(100%, calc(100dvh * 16 / 9));
-  aspect-ratio: 16 / 9;
+  width: 2560px;
+  height: 1440px;
   margin: 0 auto;
   background-image: url("../assets/obl/fotobackobl_fixed.png");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 .obl img {
   position: absolute;
@@ -50,6 +51,7 @@
 }
 
 
+
 .obl2 {
   position: absolute;
   top: 87%;
@@ -59,27 +61,27 @@
 }
 .obj2 {
   position: relative;
-  width: min(100%, calc(100dvh * 16 / 9));
-  aspect-ratio: 16 / 9;
+  width: 2560px;
+  height: 1440px;
   margin: 0 auto;
-  background-image:url(../assets/str1/back.png);
+  background-image: url(../assets/str1/back.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 .obj2 img {
   position: absolute;
+  display: block;
   height: auto;
 }
-.ferstname1
-{
+.ferstname1 {
   position: absolute;
   font-size: 64px;
   top: 70px;
   left: 70px;
 }
 
-.ferstslide1{
+.ferstslide1 {
   display: flex;
   flex-direction: row;
 }
@@ -91,13 +93,13 @@
 
 .bubble-top2 {
   width: 40%;
-  top: 282px;
+  top: 300px;
   left: 645px;
 }
 
 .bubble-bottom2 {
   width: 45%;
-  top: 782px;
+  top: 882px;
   left: 434px;
 }
 
@@ -107,34 +109,34 @@
   left: 1450px;
   transform: rotate(-15deg);
 }
-.obj2p1{
+.obj2p1 {
   position: absolute;
   font-size: 32px;
-  top: 361px;
-  left: 957px;
+  top: 380px;
+  left: 990px;
 }
-.obj2p2{
+.obj2p2 {
   position: absolute;
   font-size: 32px;
-  top: 870px;
-  left: 576px;
+  top: 970px;
+  left: 676px;
 }
-.obj3{
+.obj3 {
   position: relative;
-  width: min(100%, calc(100dvh * 16 / 9));
-  aspect-ratio: 16 / 9;
+  width: 2560px;
+  height: 1440px;
   margin: 0 auto;
-  background-image:url(../assets/str2/back.png);
+  background-image: url(../assets/str2/back.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 .obj3 img {
   position: absolute;
+  display: block;
   height: auto;
 }
-.secondname1
-{
+.secondname1 {
   position: absolute;
   font-size: 64px;
   top: 70px;
@@ -150,13 +152,13 @@
 .bubble-top3 {
   width: 40%;
   top: 300px;
-  left: 566px;
+  left: 666px;
 }
 
 .bubble-bottom3 {
   width: 45%;
   top: 782px;
-  left: 400px;
+  left: 300px;
 }
 
 .bird-left3 {
@@ -165,34 +167,34 @@
   left: 1450px;
   transform: rotate(-10deg);
 }
-.obj3p1{
+.obj3p1 {
   position: absolute;
   top: 390px;
-  left: 880px;
+  left: 980px;
   font-size: 32px;
 }
-.obj3p2{
+.obj3p2 {
   position: absolute;
   top: 850px;
-  left: 580px;
+  left: 480px;
   font-size: 32px;
 }
-.obj4{
+.obj4 {
   position: relative;
-  width: min(100%, calc(100dvh * 16 / 9));
-  aspect-ratio: 16 / 9;
+  width: 2560px;
+  height: 1440px;
   margin: 0 auto;
-  background-image:url(../assets/str3/wings_scene.png);
+  background-image: url(../assets/str3/wings_scene.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 .obj4 img {
   position: absolute;
+  display: block;
   height: auto;
 }
-.therdname1
-{
+.therdname1 {
   position: absolute;
   font-size: 64px;
   top: 70px;
@@ -200,10 +202,10 @@
 }
 
 .bird-top4 {
-  width: 20%;
+  width: 18%;
   top: 10px;
   left: 1800px;
-  transform: rotate(-15deg)
+  transform: rotate(-15deg);
 }
 
 .bubble-top4 {
@@ -224,252 +226,257 @@
   left: 100px;
   transform: rotate(-10deg);
 }
-.obj4p1{
+.obj4p1 {
   position: absolute;
   top: 500px;
   left: 1070px;
   font-size: 32px;
 }
-.obj4p2{
+.obj4p2 {
   position: absolute;
   top: 762px;
   left: 604px;
   font-size: 32px;
 }
-.obj5{
+.obj5 {
   position: relative;
-  width: min(100%, calc(100dvh * 16 / 9));
-  aspect-ratio: 16 / 9;
+  width: 2560px;
+  height: 1440px;
   margin: 0 auto;
-  background-image:url(../assets/str4/back.png);
+  background-image: url(../assets/str4/back.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 .obj5 img {
   position: absolute;
+  display: block;
   height: auto;
 }
-.fordname1{
+.fordname1 {
   position: absolute;
   font-size: 64px;
   top: 70px;
   left: 70px;
 }
-.bird-top5{
+.bird-top5 {
   width: 20%;
   top: 680px;
-  left: 100px;;
+  left: 100px;
 }
-.wing5{
+.wing5 {
   width: 70%;
   left: 700px;
   top: 100px;
 }
-.bubble-top5{
+.bubble-top5 {
   width: 50%;
   left: 600px;
   top: 933px;
 }
-.obj5p1{
+.obj5p1 {
   position: absolute;
   font-size: 36px;
   top: 230px;
   left: 70px;
 }
-.obj5p2{
+.obj5p2 {
   position: absolute;
   font-size: 36px;
-  left: 929px;
+  left: 999px;
   top: 1000px;
 }
-.obj6{
+.obj6 {
   position: relative;
-  width: min(100%, calc(100dvh * 16 / 9));
-  aspect-ratio: 16 / 9;
+  width: 2560px;
+  height: 1440px;
   margin: 0 auto;
-  background-image:url(../assets/str4/back.png);
+  background-image: url(../assets/str4/back.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 .obj6 img {
   position: absolute;
+  display: block;
   height: auto;
 }
-.fivename1{
+.fivename1 {
   position: absolute;
   font-size: 64px;
   top: 70px;
   left: 70px;
 }
-.bird-top6{
+.bird-top6 {
   width: 30%;
   top: 770px;
   left: 100px;
 }
-.bubble-top6{
+.bubble-top6 {
   width: 60%;
-  top: 930px;
+  top: 970px;
   left: 800px;
 }
-.wing6{
+.wing6 {
   width: 60%;
   top: 130px;
-  left:900px;
+  left: 900px;
 }
-.obj6p1{
-    position: absolute;
-    font-size: 36px;
-    top: 230px;
-    left: 70px;
-}
-.obj6p2{
+.obj6p1 {
   position: absolute;
   font-size: 36px;
-  top: 1010px;
+  top: 230px;
+  left: 70px;
+}
+.obj6p2 {
+  position: absolute;
+  font-size: 36px;
+  top: 1050px;
   left: 1240px;
 }
-.obj7{
+.obj7 {
   position: relative;
-  width: min(100%, calc(100dvh * 16 / 9));
-  aspect-ratio: 16 / 9;
+  width: 2560px;
+  height: 1440px;
   margin: 0 auto;
-  background-image:url(../assets/str4/back.png);
+  background-image: url(../assets/str4/back.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 .obj7 img {
   position: absolute;
+  display: block;
   height: auto;
 }
-.sixname1{
+.sixname1 {
   position: absolute;
   font-size: 64px;
   top: 70px;
   left: 70px;
 }
-.bird-top7{
+.bird-top7 {
   width: 20%;
   top: 350px;
   left: 100px;
   transform: rotate(-10deg);
 }
-.bubble-top7{
+.bubble-top7 {
   width: 37%;
   top: 700px;
   left: 100px;
 }
-.wing7{
+.wing7 {
   width: 70%;
   top: 300px;
-  left:700px;
+  left: 700px;
 }
-.obj7p1{
-    position: absolute;
-    font-size: 36px;
-    top: 930px;
-    left: 350px;
+.obj7p1 {
+  position: absolute;
+  font-size: 36px;
+  top: 930px;
+  left: 330px;
 }
-.obj7p2{
+.obj7p2 {
   position: absolute;
   font-size: 36px;
   top: 1100px;
   left: 1150px;
 }
-.obj8{
+.obj8 {
   position: relative;
-  width: min(100%, calc(100dvh * 16 / 9));
-  aspect-ratio: 16 / 9;
+  width: 2560px;
+  height: 1440px;
   margin: 0 auto;
-  background-image:url(../assets/str4/back.png);
+  background-image: url(../assets/str4/back.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 .obj8 img {
   position: absolute;
+  display: block;
   height: auto;
 }
 
-.sevenname1{
+.sevenname1 {
   position: absolute;
   font-size: 64px;
   top: 70px;
   left: 70px;
 }
-.bird-top8{
+.bird-top8 {
   width: 20%;
   top: 350px;
   left: 1767px;
   transform: rotate(-10deg);
 }
-.bubble-top8{
+.bubble-top8 {
   width: 37%;
   top: 100px;
   left: 1190px;
 }
-.bubble-bottom8{
+.bubble-bottom8 {
   width: 37%;
   top: 950px;
-  left:500px;
+  left: 500px;
 }
-.wing8{
+.wing8 {
   width: 50%;
   top: 400px;
-  left:550px;
+  left: 550px;
 }
-.bird-left8{
+.bird-left8 {
   width: 20%;
   top: 500px;
   left: 100px;
 }
-.obj8p1{
-    position: absolute;
-    font-size: 36px;
-    top: 170px;
-    left: 1400px;
-}
-.obj8p2{
+.obj8p1 {
   position: absolute;
   font-size: 36px;
-  top: 1100px;
-  left: 650px;
+  top: 170px;
+  left: 1450px;
 }
-.obj9{
+.obj8p2 {
+  position: absolute;
+  font-size: 36px;
+  top: 1120px;
+  left: 690px;
+}
+.obj9 {
   position: relative;
-  width: min(100%, calc(100dvh * 16 / 9));
-  aspect-ratio: 16 / 9;
+  width: 2560px;
+  height: 1440px;
   margin: 0 auto;
-  background-image:url(../assets/srt8/mountain_background.png);
+  background-image: url(../assets/srt8/mountain_background.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 .obj9 img {
   position: absolute;
+  display: block;
   height: auto;
 }
 
-.eightname1{
+.eightname1 {
   position: absolute;
   font-size: 64px;
   top: 70px;
   left: 70px;
 }
-.bird-top9{
+.bird-top9 {
   width: 50%;
   top: 440px;
   left: 190px;
 }
-.obj9p1{
+.obj9p1 {
   position: absolute;
   font-size: 46px;
   top: 1080px;
   left: 100px;
 }
-.obj9p2{
+.obj9p2 {
   position: absolute;
   font-size: 34px;
   top: 1200px;
@@ -477,5 +484,12 @@
   color: #6C674C;
 }
 body {
-  background-color: #000000; /* Чёрный фон вокруг комикса */
+  margin: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+.man {
+  width: 2560px;
+  margin: 0 auto;
 }
